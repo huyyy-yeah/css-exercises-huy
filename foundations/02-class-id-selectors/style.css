@@ -9,7 +9,7 @@
 }
 
 /* blue text and a font size of 36px */
-.second-number-element {
+#second-number-element {
     color: blue;
     font-size: 36px;
 }
@@ -21,7 +21,7 @@ a font size of 24px */
 }
 
 /* a light green background, a font size of 24px, and bold */
-.fourth-number-element {
+#fourth-number-element {
     background-color: lightgreen;
     font-size: 24px;
     font-weight: bold;
