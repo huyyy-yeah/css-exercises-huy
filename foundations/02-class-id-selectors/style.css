@@ -1,0 +1,28 @@
+/*  style.css */
+/* class selectors */
+
+/* a light red/pink background, and a list of fonts containing 
+`Verdana` and `DejaVu Sans` with `sans-serif` as a fallback */
+.odd-number-element, .third-number-element {
+    background-color: pink;
+    font-family: Verdana, "DejaVu Sans", sans-serif;
+}
+
+/* blue text and a font size of 36px */
+.second-number-element {
+    color: blue;
+    font-size: 36px;
+}
+
+/* in addition to the styles for all odd numbered elements, add 
+a font size of 24px */
+.third-number-element {
+    font-size: 24px;
+}
+
+/* a light green background, a font size of 24px, and bold */
+.fourth-number-element {
+    background-color: lightgreen;
+    font-size: 24px;
+    font-weight: bold;
+}
