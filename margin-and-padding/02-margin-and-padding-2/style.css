@@ -14,11 +14,17 @@ body {
   background: #e3f4ff;
   font-size: 16px;
   padding: 8px;
+  margin-bottom: 8px;
 }
 
 .content {
   background: #e3f4ff;
-  padding: 8px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 8px;
+  padding-right: 8px;
+  margin-top: 8px;
+  margin-bottom: 8px;
 }
 
 .button-container {
@@ -31,5 +37,9 @@ button {
   background: white;
   border: 1px solid #eee;
   display: block;
-  text-align: center;
+  /* what i did wrong is i kept leaving out the margin and adding the value of auto
+  having the margin as auto will automatically make it center
+  what i needed from the start */
+  margin: auto;
+  padding: 8px 24px;
 }
